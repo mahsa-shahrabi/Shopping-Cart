@@ -1,0 +1,76 @@
+.container{
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    transition: all 0.2s ease;
+}
+
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.container>img{
+    width: 230px;
+    height: 200px;
+    margin: 10px 20px;
+}
+
+.container>h3{
+    color: #404040;
+    font-size: 1.1rem;
+    margin: 25px 20px 15px;
+}
+
+.container>p{
+    color: #404040;
+    font-size: 0.9rem;
+    margin: 15px 20px;
+    font-weight: 500;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 20px 20px;
+    transition: all 5s linear;
+}
+
+.buttonContainer>a{
+    color: #1a73e8;
+    font-size: 0.95rem;
+}
+
+.buttonContainer button{
+    background-color: #1a73e8;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.buttonContainer button:hover{
+    background-color: #0b499b;
+}
+
+.smallButton{
+    width: 30px !important;
+    font-size: 1.4rem !important;
+    font-weight: bold;
+}
+
+.trashIcon{
+    width: 20px;
+}
+
+.quantity{
+    color: #1a73e8;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 10px;
+}
